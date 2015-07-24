@@ -7,3 +7,5 @@ RUN apk --update add redis
 EXPOSE 6379
 
 VOLUME  /var/lib/redis
+
+CMD [ "redis-server" ]
